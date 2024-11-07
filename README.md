@@ -1,23 +1,29 @@
-# AWS-Cloud-Technical
+### AWS Cloud Technical Essentials
 Definition of Cloud Computing - Cloud model comprises five essential chrematistics, three services, and four deployment models.
 
 Essential Chrematistics
-	Broad Network Access 
-	Rapid Elasticity
-	Measured Service (For pay-as-you-go basis)
-	On-Demand Self-Service
-	Resource Pooling
+<ul>
+	<li>Broad Network Access</li>
+	<li>Rapid Elasticity</li>
+	<li>Measured Service (For pay-as-you-go basis)</li>
+	<li>On-Demand Self-Service</li>
+	<li>Resource Pooling</li>
+</ul>
 
 Service Models
-	- Software as a Service (SaaS)
-	- Platform as a Service (PaaS)
-	- Infrastructure as a Service (IaaS)
+<ul>
+	<li>Software as a Service (SaaS)</li>
+	<li>Platform as a Service (PaaS)</li>
+	<li>Infrastructure as a Service (IaaS)</li>
+</ul>
 
 Deployment Models
-	- Public
-	- Private
-	- Hybrid
-	- Community
+<ul>
+	<li>Public</li>
+	<li>Private</li>
+	<li>Hybrid</li>
+	<li>Community</li>
+</ul>
 -------------------------------------------------------------------------------
 
 AWS Global Infrastructure
