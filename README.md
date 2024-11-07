@@ -2,11 +2,11 @@
 Definition of Cloud Computing - Cloud model comprises five essential chrematistics, three services, and four deployment models.
 
 Essential Chrematistics
-	- Broad Network Access 
-	- Rapid Elasticity
-	- Measured Service (For pay-as-you-go basis)
-	- On-Demand Self-Service
-	- Resource Pooling
+	Broad Network Access 
+	Rapid Elasticity
+	Measured Service (For pay-as-you-go basis)
+	On-Demand Self-Service
+	Resource Pooling
 
 Service Models
 	- Software as a Service (SaaS)
