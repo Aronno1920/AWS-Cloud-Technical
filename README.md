@@ -27,5 +27,7 @@ Deployment Models
 -------------------------------------------------------------------------------
 
 AWS Global Infrastructure
-	- AWS Region - separate geographic area
-	- AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
+<ul>
+	<li>AWS Region - separate geographic area</li>
+	<li>AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.</li>
+ </ul>
