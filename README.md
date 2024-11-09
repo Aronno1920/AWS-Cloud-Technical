@@ -1,15 +1,12 @@
 # AWS Cloud Technical Essentials
-
 The AWS Cloud Technical Essentials course is designed for individuals who are new to Amazon Web Services (AWS) and want to establish a solid understanding of the core principles and services offered by AWS. This foundational course provides an introduction to cloud computing concepts and walks participants through key AWS services, enabling them to comprehend the fundamental building blocks of cloud solutions. By covering essential concepts, services, and best practices, the course sets the groundwork for further exploration and utilization of AWS cloud solutions.
 
 ## Skills Covered
-
 * Develop a comprehensive understanding of AWS cloud services, including compute, networking, storage, and databases
 * Gain hands-on experience with provisioning, configuring, and managing AWS resources using the AWS Management Console
 * Learn best practices for designing secure, scalable, and cost-effective cloud architectures on AWS
 * Acquire practical skills in monitoring, optimizing, and troubleshooting AWS environments to ensure optimal performance and cost efficiency
 * Learn about serverless computing concepts and services, including AWS Lambda and Amazon API Gateway
-
 <br/><br/>
 
 **Definition of Cloud Computing** - Cloud model comprises five essential chrematistics, three services, and four deployment models.
@@ -31,14 +28,15 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Private
 * Hybrid
 * Community
-
 <br/><br/>
+
 **AWS Global Infrastructure** - 
 * AWS Region - separate geographic area
 * AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
-
 <br/><br/>
-**AWS Identity Access Management (IAM)** -
+
+## AWS Identity Access Management (IAM)
+**Identity Access Management (IAM)** -
 * Access Management
 * User Group
     * One user can assigned multiple group
@@ -53,14 +51,14 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
     * Policies can be set per User or User Group
     * Direct Managed: A huge pre-defined policies available
     * Customer Managed: Can create custom policy
-* dentity Providers
+* Dentity Providers
 * Account Setting
-
 <br/><br/>
+
 **fasdkl f** -
-
 <br/><br/>
-**AWS Keywords**
+
+## AWS Keywords
 -------------------------------------------------------------------------------
 * AWS CloudFront -> Cache provides, CDN services
 * AWS Edge Location -> Location of CloudFront
