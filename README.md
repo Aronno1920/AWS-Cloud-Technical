@@ -31,24 +31,35 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Private
 * Hybrid
 * Community
-<br/>
 
-**AWS Global Infrastructure** 
+<br/><br/>
+**AWS Global Infrastructure** - 
 * AWS Region - separate geographic area
 * AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
 
 <br/><br/>
-**AWS Identity Access Management (IAM)** 
+**AWS Identity Access Management (IAM)** -
 * Access Management
 * User Group
+    * One user can assigned multiple group
+    * Sub-group not allow
 * Users
+    * Create User
+    * Change Password: Security Credentials -> Update Console Password
 * Roles
+    * User wise direct role
+    * User group wise role
 * Policies
+    * A huge pre-defined policies available
+    * Can create custom policy
 * dentity Providers
 * Account Setting
+
 <br/><br/>
+**fasdkl f** -
 
-
+<br/><br/>
+**AWS Keywords**
 -------------------------------------------------------------------------------
 * AWS CloudFront -> Cache provides, CDN services
 * AWS Edge Location -> Location of CloudFront
