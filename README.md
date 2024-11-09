@@ -44,15 +44,16 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Users
     * Create User
     * Change Password: Security Credentials -> Update Console Password
+    * Set MFA (Multi-factory Authenticator)
 * Roles
-    * User wise direct role
-    * User group wise role
+    * Use to communicate each other between different services or same service with different regions
 * Policies
     * Policies can be set per User or User Group
     * Direct Managed: A huge pre-defined policies available
     * Customer Managed: Can create custom policy
 * Dentity Providers
 * Account Setting
+    * Change Password Policy
 <br/><br/>
 
 **fasdkl f** -
