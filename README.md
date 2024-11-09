@@ -9,7 +9,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 Learn best practices for designing secure, scalable, and cost-effective cloud architectures on AWS</li>
  <li>Acquire practical skills in monitoring, optimizing, and troubleshooting AWS environments to ensure optimal performance and cost efficiency</li>
  <li>Learn about serverless computing concepts and services, including AWS Lambda and Amazon API Gateway</li>
-<ul>
+</ul>
 
 Definition of Cloud Computing - Cloud model comprises five essential chrematistics, three services, and four deployment models.
 
