@@ -11,8 +11,8 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Learn about serverless computing concepts and services, including AWS Lambda and Amazon API Gateway
 
 
-> [!NOTE]
-> Definition of Cloud Computing - Cloud model comprises five essential chrematistics, three services, and four deployment models.
+-------------------------------------------------------------------------------
+Definition of Cloud Computing - Cloud model comprises five essential chrematistics, three services, and four deployment models.
 
 
 **Essential Chrematistics** 
@@ -23,15 +23,13 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Resource Pooling
 
 
-### Service Models
-
+**Service Models**
 * Software as a Service (SaaS)
 * Platform as a Service (PaaS)
 * Infrastructure as a Service (IaaS)
 
 
-### Deployment Models
-
+**Deployment Models** 
 * Public
 * Private
 * Hybrid
@@ -39,15 +37,13 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 
 
 
-AWS Global Infrastructure
-
+**AWS Global Infrastructure** 
 * AWS Region - separate geographic area
 * AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
 
 
 
-AWS Identity Access Management (IAM)
-
+**AWS Identity Access Management (IAM)** 
 * Access Management
 * User Group
 * Users
@@ -59,8 +55,6 @@ AWS Identity Access Management (IAM)
 
 
 -------------------------------------------------------------------------------
-
-AWS CloudFront -> cache provides, CDN services
-AWS Edge Location -> Location of CloudFront
-
+* AWS CloudFront -> cache provides, CDN services
+* AWS Edge Location -> Location of CloudFront
 -------------------------------------------------------------------------------
