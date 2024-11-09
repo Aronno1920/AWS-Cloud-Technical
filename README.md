@@ -11,7 +11,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
  <li>Learn about serverless computing concepts and services, including AWS Lambda and Amazon API Gateway</li>
 </ul>
 
-<p>Definition of Cloud Computing - Cloud model comprises five essential chrematistics, three services, and four deployment models.</p>
+> Definition of Cloud Computing - Cloud model comprises five essential chrematistics, three services, and four deployment models.
 
 ### Essential Chrematistics
 <ul>
