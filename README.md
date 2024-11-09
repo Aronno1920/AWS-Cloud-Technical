@@ -50,8 +50,9 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
     * User wise direct role
     * User group wise role
 * Policies
-    * A huge pre-defined policies available
-    * Can create custom policy
+    * Policies can be set per User or User Group
+    * Direct Managed: A huge pre-defined policies available
+    * Customer Managed: Can create custom policy
 * dentity Providers
 * Account Setting
 
