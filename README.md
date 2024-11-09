@@ -5,8 +5,8 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 ## Skills Covered
 <ul>
  <li>Develop a comprehensive understanding of AWS cloud services, including compute, networking, storage, and databases</li>
- <li> <li>Gain hands-on experience with provisioning, configuring, and managing AWS resources using the AWS Management Console</li>
-Learn best practices for designing secure, scalable, and cost-effective cloud architectures on AWS</li>
+ <li>Gain hands-on experience with provisioning, configuring, and managing AWS resources using the AWS Management Console</li>
+ <li>Learn best practices for designing secure, scalable, and cost-effective cloud architectures on AWS</li>
  <li>Acquire practical skills in monitoring, optimizing, and troubleshooting AWS environments to ensure optimal performance and cost efficiency</li>
  <li>Learn about serverless computing concepts and services, including AWS Lambda and Amazon API Gateway</li>
 </ul>
