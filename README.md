@@ -9,6 +9,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Learn about serverless computing concepts and services, including AWS Lambda and Amazon API Gateway
 <br/><br/>
 
+## Module 01: Introduction to Amazon Web Services
 **Definition of Cloud Computing** - Cloud model comprises five essential chrematistics, three services, and four deployment models.
 
 **Essential Chrematistics** 
@@ -35,8 +36,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
 <br/><br/>
 
-## AWS Identity Access Management (IAM)
-**Identity Access Management (IAM)** -
+**AWS Identity Access Management (IAM)** -
 * Access Management
 * User Group
     * One user can assigned multiple group
