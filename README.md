@@ -12,7 +12,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 
 <br/><br/>
 
-Definition of Cloud Computing - Cloud model comprises five essential chrematistics, three services, and four deployment models.
+**Definition of Cloud Computing** - Cloud model comprises five essential chrematistics, three services, and four deployment models.
 
 **Essential Chrematistics** 
 * Broad Network Access
