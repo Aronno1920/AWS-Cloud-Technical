@@ -77,7 +77,8 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Spot - Price based on bargading of up to 90% discount
 * Dedicated Host - physical EC2 server is dedicated for our use. Most expensive option.
 
-
+### Introduction Amazon EC2 Instance Lifecycle
+![Introduction Amazon EC2 Instance Lifecycle](Images/Lifecycle.png)
 
 
 
