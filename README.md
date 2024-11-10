@@ -10,8 +10,8 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * Explore serverless computing, including AWS Lambda and Amazon API Gateway.
 <br/><br/>
 
-## Module 01: Introduction to Amazon Web Services
-### Lesson 1.1: Introduction to AWS Cloud
+## Module 01 : Introduction to Amazon Web Services
+### Lesson 1.1 : Introduction to AWS Cloud
 **Amazon Web Services** provides a wide range of global cloud-based products, including compute, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications. These services are on-demand, accessible in seconds, and follow a pay-as-you-go pricing model. The cloud model includes five essential characteristics, three service types, and four deployment models.
 
 **Essential Chrematistics** 
@@ -35,7 +35,6 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 **AWS Global Infrastructure** - AWS Cloud spans 108 Availability Zones within 34 geographic regions, with announced plans for 18 more Availability Zones and six more AWS Regions in Mexico, New Zealand, the Kingdom of Saudi Arabia, Thailand, Taiwan, and the AWS European Sovereign Cloud.
 * AWS Region - separate geographic area
 * AWS Availability Zone - a distinct data center within a region. While an AZ may contain multiple data centers, they are located close enough to function as a single AZ.
-<br/>
 
 ### Lesson 1.2: AWS Identity Access Management (IAM)
 **AWS Identity and Access Management (IAM)** is a web service provided by Amazon Web Services (AWS) that allows you to manage access to AWS resources securely.
@@ -58,10 +57,9 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
     * Change Password Policy
 <br/><br/>
 
-
-## Module 02: AWS Compute
-### Lesson 2.1: Introduction to Amazon Elastic Compute Cloud (EC2)
-**AWS EC2** - is a web service that provides resizable compute capacity in the cloud. In other words virtual machine in the AWS Cloud environment. It reduces the time required to obtain and start the new server in a minute.
+## Module 02 : AWS Compute
+### Lesson 2.1 : Introduction to Amazon Elastic Compute Cloud (EC2)
+**AWS EC2** is a web service that offers resizable compute capacity in the cloud, essentially functioning as a virtual machine in the AWS environment. It minimizes the time needed to provision and launch a new server to just minutes.
 
 **Benefites of AWS EC2**
 * Scalability
@@ -80,11 +78,10 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * Spot - Price based on bargading of up to 90% discount
 * Dedicated Host - physical EC2 server is dedicated for our use. Most expensive option.
 
-### Lesson 2.2: Introduction Amazon EC2 Instance Lifecycle
+### Lesson 2.2 : Introduction Amazon EC2 Instance Lifecycle
 ![Amazon EC2 Instance Lifecycle](Images/Lifecycle.png)
-<br/><br/>
 
-### Lesson 2.3: What is Serverless?
+### Lesson 2.3 : What is Serverless?
 **Serverless** architecture allows you to build and run applications without managing infrastructure. Although your application runs on servers, AWS handles all server management for you.
 
 **Benefites of Serverless**
@@ -101,7 +98,7 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * AWS Fargate - Allows you to run containers without having to manage the underlying infrastructure
 <br/><br/>
 
-### Lesson 2.4: Introduction to AWS Lambda
+### Lesson 2.4  : Introduction to AWS Lambda
 **Where to Use** - You can run code for virtually any type of application or backend service. This includes:
 * Data Processing
 * Real-time Stream Processing
@@ -119,7 +116,7 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * Deployment Packages
 * Runtime
 
-### Lesson 2.5: Choose the Right Computing Service
+### Lesson 2.5 : Choose the Right Computing Service
 * **Amazon EC2**: Virtual servers in the cloud for running applications
 * **AWS Lambda**: Serverless computing for event-driven applications.
 * **Amazon ECS (Elastic Container Service)**: Container orchestration service for managing Docker containers
@@ -129,8 +126,8 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * **Amazon LightSail**: Simple virtual private servers with pre-configured options.
 <br/><br/>
 
-## Module 03: AWS Networking
-### Lesson 3.1: Networking in AWS
+## Module 03 : AWS Networking
+### Lesson 3.1 : Networking in AWS
 **Networking in Amazon Web Services (AWS)** includes designing, configuring, and managing infrastructure that connects AWS services and resources. AWS offers various networking services and features to support scalable, secure, and high-performance applications. Key components include:
 * **Amazon Virtual Private Cloud (VPC)** - VPC is a logically isolated section of the AWS Cloud where you can launch AWS resources.
 * **VPC Subnets** - VPC Subnets are divisions within a VPC that allow you to organize resources. They are associated with a specific availability zone (AZ) in a region.
@@ -141,22 +138,22 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * **Security Group and Network ACL** - Security Group act as virtual firewalls for your instances, controlling inbound and outbound traffic. Network ACL are stateless and operate at the subnet level.
 <br/>
 
-### Lesson 3.2: Introduction to Amazon Virtual Private Cloud (Amazon VPC)
+### Lesson 3.2 : Introduction to Amazon Virtual Private Cloud (Amazon VPC)
 **Amazon Virtual Private Cloud (VPC)** gives you full control over your virtual networking environment, including resource placement, connectivity, and security. Get started by setting up your VPC in the AWS service console.
 * Selection of your own IP address range
 * Creation of subnets
 * Configuration of route tables and network gateways
 ![Amazon Virtual Private Cloud](Images/Amazon_VPC.png)
 
-### Lesson 3.3: Amazon VPC Routing
+### Lesson 3.3 : Amazon VPC Routing
 **Amazon VPC routing** is a crucial aspect of networking within AWS. It involves configuring the rules that determine how traffic flows between different components within the VPC, such as subnets, instances, and the internet.
 
-### Lesson 3.4: Amazon VPC Security
+### Lesson 3.4 : Amazon VPC Security
 **Amazon VPC Security** is a critical aspect of AWS networking, focusing on safeguarding resources within the VPC and controlling access to and from external networks.
 <br/><br/>
 
-## Module 04: AWS Storage
-### Lesson 4.1: AWS Storage Types
+## Module 04 : AWS Storage
+### Lesson 4.1 : AWS Storage Types
 **AWS Storage Overview** - AWS Storage services are grouped into three categories:
 * **File Storage**: In file storage, data is stored as files in a hierarchy using file sharing protocol. Ex - Amazon EFS (Elastic File Storage)
 * **Block Storage**: In block storage, data is stored in fixed-size blocks. Ex - Amazon EBS (Elastic Block Service), Amazon EC2 (Instance Store)
@@ -177,19 +174,4 @@ divides it into blocks of equal sizes. The block storage system then stores the 
 * **AWS Object Storage**, files are stored as objects. Objects, much like files, are treated as a single, distinct unit of data when stored. However, unlike file storage, these objects are stored in a bucket using a flat structure, meaning there are no folders, directories, or complex hierarchies.
     * **AWS S3** provides efficient object storage with a flat structure, offering scalability, accessibility, and versatility for diverse storage needs.
 
-### Lesson 4.2: Amazon EC2 Instance Storage and Amazon Elastic Block Storage
-
-
-
-
-
-
-
-<br/><br/><br/><br/><br/><br/><br/><br/>
-## AWS Keywords
-* AWS Region - separate geographic area
-* AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
-* AWS CloudFront -> Cache provides, CDN services
-* AWS Edge Location -> Location of CloudFront
-* AWS EC2 - Amazon Elastic Compute Cloud (EC2)
-
+### Lesson 4.2 : Amazon EC2 Instance Storage and Amazon Elastic Block Storage
