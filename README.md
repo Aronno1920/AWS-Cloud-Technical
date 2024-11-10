@@ -11,7 +11,8 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 <br/><br/>
 
 ## Module 01: Introduction to Amazon Web Services
-**Definition of Cloud Computing** - Cloud model comprises five essential chrematistics, three services, and four deployment models.
+### Lesson 1.1: Introduction to AWS Cloud
+**Amazon Web Services** offers a broad set of global cloud-based products including computing, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications: on-demand, available in seconds, with pay-as-you-go pricing. Cloud model comprises five essential chrematistics, three services, and four deployment models.
 
 **Essential Chrematistics** 
 * Broad Network Access
@@ -37,7 +38,8 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
 <br/>
 
-**AWS Identity Access Management (IAM)** -
+### Lesson 1.2: AWS Identity Access Management (IAM)
+**AWS Identity and Access Management (IAM)** is a web service provided by Amazon Web Services (AWS) that allows you to manage access to AWS resources securely.
 * Access Management
 * User Group
     * One user can assigned multiple group
@@ -56,6 +58,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Account Setting
     * Change Password Policy
 <br/><br/>
+
 
 ## Module 02: AWS Compute
 ### Introduction to Amazon Elastic Compute Cloud (EC2)
@@ -144,8 +147,8 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 <br/><br/>
 
 ## Module 04: AWS Storage
-### AWS Storage Overview
-**AWS Storage Types** - AWS Storage services are grouped into three categories:
+### Lesson 4.1: AWS Storage Types
+**AWS Storage Overview** - AWS Storage services are grouped into three categories:
 * **File Storage**: In file storage, data is stored as files in a hierarchy using file sharing protocol. Ex - Amazon EFS (Elastic File Storage)
 * **Block Storage**: In block storage, data is stored in fixed-size blocks. Ex - Amazon EBS (Elastic Block Service), Amazon EC2 (Instance Store)
 * **Object Storage**: In object storage, data is stored as objects in buckets. Ex - Amazon S3, Amazon Glacier
@@ -165,10 +168,7 @@ divides it into blocks of equal sizes. The block storage system then stores the 
 * **AWS Object Storage**, files are stored as objects. Objects, much like files, are treated as a single, distinct unit of data when stored. However, unlike file storage, these objects are stored in a bucket using a flat structure, meaning there are no folders, directories, or complex hierarchies.
     * **AWS S3** provides efficient object storage with a flat structure, offering scalability, accessibility, and versatility for diverse storage needs.
 
-### File Storage
-
-
-
+### Lesson 4.2: Amazon EC2 Instance Storage and Amazon Elastic Block Storage
 
 
 
