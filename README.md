@@ -142,11 +142,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 
 ## Module 03: AWS Networking
 ### Learning Outcomes
-* Develop a foundational understanding of networking principles in the AWS environment
-* Master the concepts of Amazon VPC, including its components and use cases
-* Gain proficiency in configuring routing within an Amazon VPC
-* Acquire knowledge of security features and best practices for securing an Amazon VPC
-* Apply theoretical knowledge in a practical setting through the hands-on lab, reinforcing the ability to create and manage VPCs, launch EC2 instances, and deploy applications
+Foundational understanding of networking; Amazon VPC including components, use cases, configuring routing, security features, securing an Amazon VPC
 
 ### Understanding the Network in AWS Services
 * **Amazon Virtual Private Cloud (VPC)** - VPC is a logically isolated section of the AWS Cloud where you can launch AWS resources.
@@ -157,7 +153,12 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * **Virtual Private Network (VPN) and Direct Connect** - VPN and Direct Connect services provide secure and dedicated network connections between your on-premises data center and your VPC.
 * **Security Group and Network ACL** - Security Group act as virtual firewalls for your instances, controlling inbound and outbound traffic. Network ACL are stateless and operate at the subnet level.
 
-
+### Introduction to Amazon Virtual Private Cloud (Amazon VPC)
+**Amazon Virtual Private Cloud (VPC)** gives you full control over your virtual networking environment, including resource placement, connectivity, and security. Get started by setting up your VPC in the AWS service console.
+* Selection of your own IP address range
+* Creation of subnets
+* Configuration of route tables and network gateways
+![Amazon Virtual Private Cloud](Images/Amazon_VPC.png)
 
 
 
