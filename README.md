@@ -77,11 +77,13 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Spot - Price based on bargading of up to 90% discount
 * Dedicated Host - physical EC2 server is dedicated for our use. Most expensive option.
 
-### Introduction Amazon EC2 Instance Lifecycle
-![Introduction Amazon EC2 Instance Lifecycle](Images/Lifecycle.png)
+**Amazon EC2 Instance Lifecycle**
+![Amazon EC2 Instance Lifecycle](Images/Lifecycle.png)
+<br/><br/>
 
 ### What is Serverless?
 **Serverless** architecture is a way to build and run applications and services without having to manage infrastructure. Your application still runs on servers, but all the server management is done by AWS
+
 **Benefites of Serverless**
 * Fully managed service
 * Scale Flexiby
@@ -94,10 +96,10 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * AWS Lambda - Enables you to run code without provisioning or managing servers.
 * AWS App Runner - Makes it easy to build, deploy, and scale web applications quickly.
 * AWS Fargate - Allows you to run containers without having to manage the underlying infrastructure
+<br/><br/>
 
 ### Introduction to AWS Lambda
-**Where to Use - AWS Lambda**
-You can run code for virtually any type of application or backend service. This includes:
+**Where to Use** - You can run code for virtually any type of application or backend service. This includes:
 * Data Processing
 * Real-time Stream Processing
 * Machine Learning
@@ -106,8 +108,7 @@ You can run code for virtually any type of application or backend service. This 
 * Mobile Backends
 * Web Applications
 
-**How AWS Lambda works**
-There are options for configuring Lambda functions using the Lambda console, Lambda API, AWS CloudFormation, or AWS Serverless Application Model (AWS SAM).
+**How AWS Lambda works** - There are options for configuring Lambda functions using the Lambda console, Lambda API, AWS CloudFormation, or AWS Serverless Application Model (AWS SAM).
 * Function
 * Tigger
 * Event
