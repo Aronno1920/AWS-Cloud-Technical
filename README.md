@@ -32,7 +32,7 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * Hybrid
 * Community
 
-**AWS Global Infrastructure** - 
+**AWS Global Infrastructure** - AWS Cloud spans 108 Availability Zones within 34 geographic regions, with announced plans for 18 more Availability Zones and six more AWS Regions in Mexico, New Zealand, the Kingdom of Saudi Arabia, Thailand, Taiwan, and the AWS European Sovereign Cloud.
 * AWS Region - separate geographic area
 * AWS Availability Zone - a distinct data center within a region. While an AZ may contain multiple data centers, they are located close enough to function as a single AZ.
 <br/>
