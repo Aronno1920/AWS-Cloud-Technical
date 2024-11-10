@@ -33,9 +33,9 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * Community
 
 **AWS Global Infrastructure** - AWS Cloud spans 108 Availability Zones within 34 geographic regions, with announced plans for 18 more Availability Zones and six more AWS Regions in Mexico, New Zealand, the Kingdom of Saudi Arabia, Thailand, Taiwan, and the AWS European Sovereign Cloud.
-* **AWS Availably Zone**: Think Availably Zone as a data center. An Availability Zone may have multiple data centers but because they are close together, they count as 1 Availability Zone.
-* **AWS Region**: The region is a separate geographic area. Each Region consists 2 or More Availability Zones.
-* **Edge Locations**: are part of AWS's CDN service, Amazon CloudFront. CloudFront uses a network of edge locations to cache and deliver content to users with lower latency by serving content from the edge location closest to the user.
+* **AWS Availability Zone** : An Availability Zone (AZ) functions like a data center. An AZ may contain multiple data centers, but they are grouped as one AZ due to their proximity.
+* **AWS Region** : A Region is a distinct geographic area, consisting of at least two Availability Zones.
+* **Edge Locations** : Edge locations support AWS's CDN service, Amazon CloudFront, by caching and delivering content with low latency from the location closest to the user.
 
 
 ### Lesson 1.2: AWS Identity Access Management (IAM)
