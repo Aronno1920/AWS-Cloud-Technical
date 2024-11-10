@@ -1,5 +1,6 @@
 # AWS Cloud Technical Essentials
 The AWS Cloud Technical Essentials course is designed for individuals who are new to Amazon Web Services (AWS) and want to establish a solid understanding of the core principles and services offered by AWS. This foundational course provides an introduction to cloud computing concepts and walks participants through key AWS services, enabling them to comprehend the fundamental building blocks of cloud solutions. By covering essential concepts, services, and best practices, the course sets the groundwork for further exploration and utilization of AWS cloud solutions.
+<br/><br/>
 
 ## Skills Covered
 * Develop a comprehensive understanding of AWS cloud services, including compute, networking, storage, and databases
@@ -29,12 +30,12 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Private
 * Hybrid
 * Community
-<br/><br/>
+<br/>
 
 **AWS Global Infrastructure** - 
 * AWS Region - separate geographic area
 * AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
-<br/><br/>
+<br/>
 
 **AWS Identity Access Management (IAM)** -
 * Access Management
@@ -57,7 +58,6 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 <br/><br/>
 
 ## Module 02: AWS Compute
-
 ### Introduction to Amazon Elastic Compute Cloud (EC2)
 **AWS EC2** - is a web service that provides resizable compute capacity in the cloud. In other words virtual machine in the AWS Cloud environment. It reduces the time required to obtain and start the new server in a minute.
 
@@ -78,8 +78,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Spot - Price based on bargading of up to 90% discount
 * Dedicated Host - physical EC2 server is dedicated for our use. Most expensive option.
 
-**Amazon EC2 Instance Lifecycle**
-
+**Amazon EC2 Instance Lifecycle**<br/>
 ![Amazon EC2 Instance Lifecycle](Images/Lifecycle.png)
 <br/><br/>
 
@@ -128,6 +127,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * **Amazon Route 53** - Route 53 is a scalable and highly available domain name system (DNS) web service. It translates user-friendly domain names into IP addresses.
 * **Virtual Private Network (VPN) and Direct Connect** - VPN and Direct Connect services provide secure and dedicated network connections between your on-premises data center and your VPC.
 * **Security Group and Network ACL** - Security Group act as virtual firewalls for your instances, controlling inbound and outbound traffic. Network ACL are stateless and operate at the subnet level.
+<br/>
 
 ### Introduction to Amazon Virtual Private Cloud (Amazon VPC)
 **Amazon Virtual Private Cloud (VPC)** gives you full control over your virtual networking environment, including resource placement, connectivity, and security. Get started by setting up your VPC in the AWS service console.
@@ -139,8 +139,9 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 ### Amazon VPC Routing
 **Amazon VPC routing** is a crucial aspect of networking within AWS. It involves configuring the rules that determine how traffic flows between different components within the VPC, such as subnets, instances, and the internet.
 
-
-
+### Amazon VPC Security
+**Amazon VPC Security** is a critical aspect of AWS networking, focusing on safeguarding resources within the VPC and controlling access to and from external networks.
+<br/><br/>
 
 
 
