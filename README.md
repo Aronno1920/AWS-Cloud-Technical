@@ -154,26 +154,23 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 <br/><br/>
 
 ## Module 04 : AWS Storage
-### Lesson 4.1 : AWS Storage Types
-**AWS Storage Overview** - AWS Storage services are grouped into three categories:
+### Lesson 4.1 : AWS Storage Overview
+AWS Storage services are grouped into three categories:
 * **File Storage**: In file storage, data is stored as files in a hierarchy using file sharing protocol. Ex - Amazon EFS (Elastic File Storage)
 * **Block Storage**: In block storage, data is stored in fixed-size blocks. Ex - Amazon EBS (Elastic Block Service), Amazon EC2 (Instance Store)
 * **Object Storage**: In object storage, data is stored as objects in buckets. Ex - Amazon S3, Amazon Glacier
-<br/>
 
 ### AWS Storage Types
-* **File Storage** is ideal when you require centralized access to files that must be easily shared and managed by multiple host computers.
-Typically, this storage is mounted onto multiple hosts, and requires file locking and integration with existing file system communication
-protocols.
-    * **Elastic File System (EFS)**: Centralized file storage for Linux and Unix systems, facilitating collaboration with multi-host mounting and standard protocol integration.
-    * **Amazon FSx for Windows**: Tailored for Windows environments, providing efficient centralized file management for Windows applications and storage needs.
-    * **Amazon FSx for Lustre**: Designed for Unix-based systems, offering high-performance file storage ideal for HPC workloads, machine learning, and analytics.
-* **AWS Block Storage** is a technology that controls data storage and storage devices. It takes any data, like a file or database entry, and
-divides it into blocks of equal sizes. The block storage system then stores the data block on underlying physical storage in a manner that is optimized for fast access and retrieval.
-    * **Amazon Elastic Block Store (EBS)**: Provides block-level storage volumes for use with Amazon EC2 instances.
-    * **Amazon EC2 instance storage**: Storage directly attached to EC2 instances.
-* **AWS Object Storage**, files are stored as objects. Objects, much like files, are treated as a single, distinct unit of data when stored. However, unlike file storage, these objects are stored in a bucket using a flat structure, meaning there are no folders, directories, or complex hierarchies.
-    * **AWS S3** provides efficient object storage with a flat structure, offering scalability, accessibility, and versatility for diverse storage needs.
+* **File Storage** is ideal for centralized access to files that need to be shared and managed across multiple hosts. It often requires file locking and integration with existing file system protocols.
+    * **Elastic File System (EFS)** : Centralized file storage for Linux and Unix systems, supporting multi-host mounting and standard protocol integration.
+    * **Amazon FSx for Windows** : Tailored for Windows environments, providing efficient file management for Windows applications.
+    * **Amazon FSx for Lustre** : High-performance file storage designed for Unix-based systems, ideal for HPC workloads, machine learning, and analytics.
+* **AWS Block Storage** divides data into equal-sized blocks for optimized storage and fast retrieval. Examples include:
+    * **Amazon Elastic Block Store (EBS)** : Provides block-level storage for EC2 instances.
+    * **Amazon EC2 Instance Storage** : Directly attached storage for EC2 instances.
+* **AWS Object Storage** stores data as objects in a flat structure, without directories or complex hierarchies.
+    * **Amazon S3** : Offers scalable, accessible, and versatile object storage, ideal for diverse storage needs.
+
 
 ### Lesson 4.2 : Amazon EC2 Instance Storage and Amazon Elastic Block Storage
 **Amazon EC2 Instance Store** provides temporary block-level storage for an EC2 instance, located on disks physically attached to the host computer. This storage is ephemeral and is lost when the instance is stopped or terminated.
