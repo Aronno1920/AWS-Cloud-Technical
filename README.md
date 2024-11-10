@@ -10,7 +10,7 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * Explore serverless computing, including AWS Lambda and Amazon API Gateway.
 <br/><br/>
 
-## Module 01 : Introduction to Amazon Web Services
+## Module 01 : Introduction to Amazon Web Services ![Read More](Resources/ACTE%20Module%201%20Resource.pdf)
 ### Lesson 1.1 : Introduction to AWS Cloud
 **Amazon Web Services** provides a wide range of global cloud-based products, including compute, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications. These services are on-demand, accessible in seconds, and follow a pay-as-you-go pricing model. The cloud model includes five essential characteristics, three service types, and four deployment models.
 
