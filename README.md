@@ -80,6 +80,32 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 ### Introduction Amazon EC2 Instance Lifecycle
 ![Introduction Amazon EC2 Instance Lifecycle](Images/Lifecycle.png)
 
+### What is Serverless?
+**Serverless** architecture is a way to build and run applications and services without having to manage infrastructure. Your application still runs on servers, but all the server management is done by AWS
+**Benefites of Serverless**
+* Fully managed service
+* Scale Flexiby
+* Only pay for resources you use
+* Enhance Developer productivity
+* Seamless Connections
+* Develop Intelligent applications
+
+**Example of Serverless Services**
+* AWS Lambda - Enables you to run code without provisioning or managing servers.
+* AWS App Runner - Makes it easy to build, deploy, and scale web applications quickly.
+* AWS Fargate - Allows you to run containers without having to manage the underlying infrastructure
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
