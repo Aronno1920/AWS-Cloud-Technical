@@ -143,11 +143,31 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 **Amazon VPC Security** is a critical aspect of AWS networking, focusing on safeguarding resources within the VPC and controlling access to and from external networks.
 <br/><br/>
 
+## Module 04: AWS Storage
+### AWS Storage Overview
+**AWS Storage Types** - AWS Storage services are grouped into three categories:
+* **File Storage**: In file storage, data is stored as files in a hierarchy using file sharing protocol. Ex - Amazon EFS (Elastic File Storage)
+* **Block Storage**: In block storage, data is stored in fixed-size blocks. Ex - Amazon EBS (Elastic Block Service), Amazon EC2 (Instance Store)
+* **Object Storage**: In object storage, data is stored as objects in buckets. Ex - Amazon S3, Amazon Glacier
+<br/>
 
+### Block Storage
+**AWS Block Storage** is a technology that controls data storage and storage devices. It takes any data, like a file or database entry, and
+divides it into blocks of equal sizes. The block storage system then stores the data block on underlying physical storage in a manner that is optimized for fast access and retrieval.
+* **Amazon Elastic Block Store (EBS)**: Provides block-level storage volumes for use with Amazon EC2 instances.
+* **Amazon EC2 instance storage**: Storage directly attached to EC2 instances.
 
+### Object Storage
+**AWS Object Storage**, files are stored as objects. Objects, much like files, are treated as a single, distinct unit of data when stored. However, unlike file storage, these objects are stored in a bucket using a flat structure, meaning there are no folders, directories, or complex hierarchies.
+* **AWS S3** provides efficient object storage with a flat structure, offering scalability, accessibility, and versatility for diverse storage needs.
 
-
-
+### File Storage
+**File Storage** is ideal when you require centralized access to files that must be easily shared and managed by multiple host computers.
+Typically, this storage is mounted onto multiple hosts, and requires file locking and integration with existing file system communication
+protocols.
+* **Elastic File System (EFS)**: Centralized file storage for Linux and Unix systems, facilitating collaboration with multi-host mounting and standard protocol integration.
+* **Amazon FSx for Windows**: Tailored for Windows environments, providing efficient centralized file management for Windows applications and storage needs.
+* **Amazon FSx for Lustre**: Designed for Unix-based systems, offering high-performance file storage ideal for HPC workloads, machine learning, and analytics.
 
 
 
