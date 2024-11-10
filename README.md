@@ -58,8 +58,8 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 
 ## Module 02: AWS Compute
 ### Introduction to Amazon Elastic Compute Cloud (EC2)
-
 **AWS EC2** - is a web service that provides resizable compute capacity in the cloud. In other words virtual machine in the AWS Cloud environment. It reduces the time required to obtain and start the new server in a minute.
+
 **Benefites of AWS EC2**
 * Scalability
 * Flexibility and Variety
@@ -67,12 +67,22 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Reliability
 * Security
 * Cost Efficiency
-<br/><br/>
+* Security Group
+    * Inbound Rule
+    * Outbound Rule
+
+**Pricing Options of AWS EC2**
+* On-Demand - Pay by the hour or second basis
+* Reserved - Time limit 1 or 3 years contracts up to 70% discount
+* Spot - Price based on bargading of up to 90% discount
+* Dedicated Host - physical EC2 server is dedicated for our use. Most expensive option.
 
 
 
 
 
+
+<br/><br/><br/><br/><br/><br/><br/><br/>
 ## AWS Keywords
 * AWS Region - separate geographic area
 * AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
