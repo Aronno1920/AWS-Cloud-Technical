@@ -10,6 +10,18 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 <br/><br/>
 
 ## Module 01: Introduction to Amazon Web Services
+### Learning Outcomes
+* Define Amazon Web Services (AWS) and its role in the cloud computing industry
+* Understand the global infrastructure of AWS, including regions and availability zones
+* Recognize fundamental concepts that underpin AWS Cloud
+* Articulate the importance of AWS IAM in managing secure access to AWS resources
+* Explain essential IAM concepts, such as users, groups, roles, policies, and permissions
+* Understand the purpose and advantages of IAM groups for effective user management
+* Grasp the concept of IAM roles and their application in delegating permissions
+* Apply IAM knowledge to enhance security and access control within the AWS service
+* Apply theoretical knowledge gained in the IAM module through practical, hands-on lab exercises.
+* Develop confidence in utilizing IAM for secure access control within AWS
+
 **Definition of Cloud Computing** - Cloud model comprises five essential chrematistics, three services, and four deployment models.
 
 **Essential Chrematistics** 
@@ -57,6 +69,16 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 <br/><br/>
 
 ## Module 02: AWS Compute
+### Learning Outcomes
+* Define Amazon EC2 and understand its significance in AWS computing
+* Comprehend the lifecycle of an Amazon EC2 instance, including launching stopping, and terminating
+* Define serverless computing and identify its advantages and use cases
+* Explore AWS Lambda as a serverless computing service and its event-driven architecture
+* Evaluate and choose the appropriate AWS computing service based on specific requirements
+* Apply theoretical knowledge in a practical setting by launching a sample application on Amazon EC2
+* Gain hands-on proficiency in setting up and managing computing resources on AWS
+
+
 ### Introduction to Amazon Elastic Compute Cloud (EC2)
 **AWS EC2** - is a web service that provides resizable compute capacity in the cloud. In other words virtual machine in the AWS Cloud environment. It reduces the time required to obtain and start the new server in a minute.
 
@@ -116,8 +138,15 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Application Environment
 * Deployment Packages
 * Runtime
+<br/><br/>
 
-
+## Module 03: AWS Networking
+### Learning Outcomes
+* Develop a foundational understanding of networking principles in the AWS environment
+* Master the concepts of Amazon VPC, including its components and use cases
+* Gain proficiency in configuring routing within an Amazon VPC
+* Acquire knowledge of security features and best practices for securing an Amazon VPC
+* Apply theoretical knowledge in a practical setting through the hands-on lab, reinforcing the ability to create and manage VPCs, launch EC2 instances, and deploy applications
 
 
 
