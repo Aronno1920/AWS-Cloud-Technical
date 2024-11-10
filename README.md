@@ -33,8 +33,10 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * Community
 
 **AWS Global Infrastructure** - AWS Cloud spans 108 Availability Zones within 34 geographic regions, with announced plans for 18 more Availability Zones and six more AWS Regions in Mexico, New Zealand, the Kingdom of Saudi Arabia, Thailand, Taiwan, and the AWS European Sovereign Cloud.
-* AWS Region - separate geographic area
-* AWS Availability Zone - a distinct data center within a region. While an AZ may contain multiple data centers, they are located close enough to function as a single AZ.
+* **AWS Availably Zone**: Think Availably Zone as a data center. An Availability Zone may have multiple data centers but because they are close together, they count as 1 Availability Zone.
+* **AWS Region**: The region is a separate geographic area. Each Region consists 2 or More Availability Zones.
+* **Edge Locations**: are part of AWS's CDN service, Amazon CloudFront. CloudFront uses a network of edge locations to cache and deliver content to users with lower latency by serving content from the edge location closest to the user.
+
 
 ### Lesson 1.2: AWS Identity Access Management (IAM)
 **AWS Identity and Access Management (IAM)** is a web service provided by Amazon Web Services (AWS) that allows you to manage access to AWS resources securely.
@@ -136,7 +138,6 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * **Amazon Route 53** - Route 53 is a scalable and highly available domain name system (DNS) web service. It translates user-friendly domain names into IP addresses.
 * **Virtual Private Network (VPN) and Direct Connect** - VPN and Direct Connect services provide secure and dedicated network connections between your on-premises data center and your VPC.
 * **Security Group and Network ACL** - Security Group act as virtual firewalls for your instances, controlling inbound and outbound traffic. Network ACL are stateless and operate at the subnet level.
-<br/>
 
 ### Lesson 3.2 : Introduction to Amazon Virtual Private Cloud (Amazon VPC)
 **Amazon Virtual Private Cloud (VPC)** gives you full control over your virtual networking environment, including resource placement, connectivity, and security. Get started by setting up your VPC in the AWS service console.
