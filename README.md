@@ -12,7 +12,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 ## Module 01: Introduction to Amazon Web Services
 **Definition of Cloud Computing** - Cloud model comprises five essential chrematistics, three services, and four deployment models.
 
-### Essential Chrematistics
+**Essential Chrematistics** 
 * Broad Network Access
 * Rapid Elasticity
 * Measured Service (For pay-as-you-go basis)
@@ -57,7 +57,16 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 <br/><br/>
 
 ## Module 02: AWS Compute
-**AWS EC2 - Amazon Elastic Compute Cloud (EC2)** - is a web service that provides resizable compute capacity in the cloud. In other words virtual machine in the AWS Cloud environment. It reduces the time required to obtain and start the new server in a minute.
+### Introduction to Amazon Elastic Compute Cloud (EC2)
+
+**AWS EC2** - is a web service that provides resizable compute capacity in the cloud. In other words virtual machine in the AWS Cloud environment. It reduces the time required to obtain and start the new server in a minute.
+**Benefites of AWS EC2**
+* Scalability
+* Flexibility and Variety
+* Elasticity
+* Reliability
+* Security
+* Cost Efficiency
 <br/><br/>
 
 
