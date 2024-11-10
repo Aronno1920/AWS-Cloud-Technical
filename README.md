@@ -1,18 +1,18 @@
 # AWS Cloud Technical Essentials
-The AWS Cloud Technical Essentials course is designed for individuals who are new to Amazon Web Services (AWS) and want to establish a solid understanding of the core principles and services offered by AWS. This foundational course provides an introduction to cloud computing concepts and walks participants through key AWS services, enabling them to comprehend the fundamental building blocks of cloud solutions. By covering essential concepts, services, and best practices, the course sets the groundwork for further exploration and utilization of AWS cloud solutions.
+The AWS Cloud Technical Essentials course introduces newcomers to core AWS principles, services, and cloud computing basics. It provides foundational knowledge of key AWS services and best practices, preparing participants for further exploration of AWS solutions.
 <br/><br/>
 
 ## Skills Covered
-* Develop a comprehensive understanding of AWS cloud services, including compute, networking, storage, and databases
-* Gain hands-on experience with provisioning, configuring, and managing AWS resources using the AWS Management Console
-* Learn best practices for designing secure, scalable, and cost-effective cloud architectures on AWS
-* Acquire practical skills in monitoring, optimizing, and troubleshooting AWS environments to ensure optimal performance and cost efficiency
-* Learn about serverless computing concepts and services, including AWS Lambda and Amazon API Gateway
+* Build a strong foundation in AWS cloud services like compute, networking, storage, and databases.
+* Get hands-on practice with provisioning, configuring, and managing resources via the AWS Management Console.
+* Discover best practices for designing secure, scalable, and cost-effective cloud architectures.
+* Develop skills to monitor, optimize, and troubleshoot AWS environments for peak performance and efficiency.
+* Explore serverless computing, including AWS Lambda and Amazon API Gateway.
 <br/><br/>
 
 ## Module 01: Introduction to Amazon Web Services
 ### Lesson 1.1: Introduction to AWS Cloud
-**Amazon Web Services** offers a broad set of global cloud-based products including computing, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications: on-demand, available in seconds, with pay-as-you-go pricing. Cloud model comprises five essential chrematistics, three services, and four deployment models.
+**Amazon Web Services** provides a wide range of global cloud-based products, including compute, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications. These services are on-demand, accessible in seconds, and follow a pay-as-you-go pricing model. The cloud model includes five essential characteristics, three service types, and four deployment models.
 
 **Essential Chrematistics** 
 * Broad Network Access
@@ -31,11 +31,10 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Private
 * Hybrid
 * Community
-<br/>
 
 **AWS Global Infrastructure** - 
 * AWS Region - separate geographic area
-* AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
+* AWS Availability Zone - a distinct data center within a region. While an AZ may contain multiple data centers, they are located close enough to function as a single AZ.
 <br/>
 
 ### Lesson 1.2: AWS Identity Access Management (IAM)
@@ -132,7 +131,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 
 ## Module 03: AWS Networking
 ### Lesson 3.1: Networking in AWS
-Networking in Amazon Web Services (AWS) involves designing, configuring, and managing the network infrastructure that connects various AWS services and resources. AWS provides several networking services and features to help you build scalable, secure, and high-performance applications. Understanding the Network in AWS Services:-
+**Networking in Amazon Web Services (AWS)** includes designing, configuring, and managing infrastructure that connects AWS services and resources. AWS offers various networking services and features to support scalable, secure, and high-performance applications. Key components include:
 * **Amazon Virtual Private Cloud (VPC)** - VPC is a logically isolated section of the AWS Cloud where you can launch AWS resources.
 * **VPC Subnets** - VPC Subnets are divisions within a VPC that allow you to organize resources. They are associated with a specific availability zone (AZ) in a region.
 * **Route Tables** - Route Tables contains a set of rules, called routes, that are used to determine where network traffic is directed.
