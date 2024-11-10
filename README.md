@@ -85,7 +85,7 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 <br/><br/>
 
 ### Lesson 2.3: What is Serverless?
-**Serverless** architecture is a way to build and run applications and services without having to manage infrastructure. Your application still runs on servers, but all the server management is done by AWS
+**Serverless** architecture allows you to build and run applications without managing infrastructure. Although your application runs on servers, AWS handles all server management for you.
 
 **Benefites of Serverless**
 * Fully managed service
