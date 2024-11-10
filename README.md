@@ -148,7 +148,10 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Acquire knowledge of security features and best practices for securing an Amazon VPC
 * Apply theoretical knowledge in a practical setting through the hands-on lab, reinforcing the ability to create and manage VPCs, launch EC2 instances, and deploy applications
 
-
+### Understanding the Network in AWS Services
+* **Amazon Virtual Private Cloud (VPC)** - VPC is a logically isolated section of the AWS Cloud where you can launch AWS resources.
+* **VPC Subnets** - VPC Subnets are divisions within a VPC that allow you to organize resources. They are associated with a specific availability zone (AZ) in a region.
+* **Route Tables** - Route Tables contains a set of rules, called routes, that are used to determine where network traffic is directed.
 
 
 
