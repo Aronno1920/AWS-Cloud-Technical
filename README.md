@@ -38,7 +38,7 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * **Edge Locations** : Edge locations support AWS's CDN service, Amazon CloudFront, by caching and delivering content with low latency from the location closest to the user.
 
 
-### Lesson 1.2: AWS Identity Access Management (IAM)
+### Lesson 1.2 : AWS Identity Access Management (IAM)
 **AWS Identity and Access Management (IAM)** is a web service provided by Amazon Web Services (AWS) that allows you to manage access to AWS resources securely.
 * Access Management
 * User Group
@@ -100,7 +100,7 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * AWS Fargate - Allows you to run containers without having to manage the underlying infrastructure
 <br/><br/>
 
-### Lesson 2.4  : Introduction to AWS Lambda
+### Lesson 2.4 : Introduction to AWS Lambda
 **Where to Use** - You can run code for virtually any type of application or backend service. This includes:
 * Data Processing
 * Real-time Stream Processing
@@ -176,3 +176,44 @@ divides it into blocks of equal sizes. The block storage system then stores the 
     * **AWS S3** provides efficient object storage with a flat structure, offering scalability, accessibility, and versatility for diverse storage needs.
 
 ### Lesson 4.2 : Amazon EC2 Instance Storage and Amazon Elastic Block Storage
+**Amazon EC2 Instance Store** provides temporary block-level storage for an EC2 instance, located on disks physically attached to the host computer. This storage is ephemeral and is lost when the instance is stopped or terminated.
+
+**Amazon Elastic Block Store (EBS)** offers block-level storage that can be attached to an EC2 instance, similar to attaching an external drive to a laptop. EBS volumes are persistent, meaning data remains even if the EC2 instance is stopped or restarted, making them useful for long-term storage.
+
+**Use Case of EC2 Instance Storage**
+* Instance Store is ideal for applications that replicate data to other EC2 instances, like Hadoop clusters. The speed of locally attached storage combined with replicated data ensures high performance and efficient data distribution for cluster-based workloads.
+* It is also suitable for temporary storage of frequently changing data, such as buffers, caches, scratch data, and other transient content.
+
+**Use Case of EBS**
+**Amazon EBS** is ideal for scenarios where you need quick data retrieval and long-term persistence. Common use cases include:
+* **Boot and Root Volumes**: Used to store the operating system of an EC2 instance.
+* **Storage for Databases**: Provides scalable, consistent, and low-latency storage for databases running on EC2, ensuring performance aligns with your needs.
+
+
+### Lesson 4.3 : Object Storage with Amazon S3
+**Amazon S3 or Amazon Simple Storage Service Object** - storage is built for the cloud and delivers virtually unlimited scalability, high durability, and cost effectiveness
+* It provides developers and IT teams with secure, durable, highly scalable object storage
+* It S3 is easy to use, the simple web services interfaces to store and retrieve any amount of data from anywhere on the web
+* It allows us to upload our files
+* File can be 0 Byte to 5 TB
+* Unlimited Storage
+* File stored in Bucket
+* Return 200 codes if uploaded successfully
+
+### Lesson 4.4 : Purpose Driven Right Storage Selection
+* **Amazon EC2 instance store**
+    * Caching and Buffers
+    * Temporary Data and Scratch Space
+    * Stateless Applications
+* **Amazon EBS**
+    * Root Volume for EC2 Instances
+    * Applications and Database Storage
+    * Backup and Snapshots
+* **Amazon S3**
+    * Data Storage, Backup and long-time archiving
+    * Media and Web Object Content
+    * Static Website Hosting
+* **Amazon EFS**
+    * Shared File Storage for EC2 Instances
+    * Big Data and Analytics
+    * Container Storage for Docker and Kubernetes
