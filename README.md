@@ -56,11 +56,14 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
     * Change Password Policy
 <br/><br/>
 
-**fasdkl f** -
+## Module 02: AWS Compute
+**AWS EC2 - Amazon Elastic Compute Cloud (EC2)** - is a web service that provides resizable compute capacity in the cloud. In other words virtual machine in the AWS Cloud environment. It reduces the time required to obtain and start the new server in a minute.
 <br/><br/>
 
 ## AWS Keywords
--------------------------------------------------------------------------------
+* AWS Region - separate geographic area
+* AWS Availability Zone - Availability Zone as data center. A availability zone may have multiple data center but because the are close together, they counted as 1 Availability Zone.
 * AWS CloudFront -> Cache provides, CDN services
 * AWS Edge Location -> Location of CloudFront
--------------------------------------------------------------------------------
+* AWS EC2 - Amazon Elastic Compute Cloud (EC2)
+
