@@ -98,22 +98,22 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 ### Introduction to AWS Lambda
 **Where to Use - AWS Lambda**
 You can run code for virtually any type of application or backend service. This includes:
-✓ Data Processing
-✓ Real-time Stream Processing
-✓ Machine Learning
-✓ WebSocket
-✓ IoT Backends
-✓ Mobile Backends
-✓ Web Applications
+* Data Processing
+* Real-time Stream Processing
+* Machine Learning
+* WebSocket
+* IoT Backends
+* Mobile Backends
+* Web Applications
 
 **How AWS Lambda works**
 There are options for configuring Lambda functions using the Lambda console, Lambda API, AWS CloudFormation, or AWS Serverless Application Model (AWS SAM).
-✓ Function
-✓ Tigger
-✓ Event
-✓ Application Environment
-✓ Deployment Packages
-✓ Runtime
+* Function
+* Tigger
+* Event
+* Application Environment
+* Deployment Packages
+* Runtime
 
 
 
