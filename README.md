@@ -98,7 +98,6 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * AWS Lambda - Enables you to run code without provisioning or managing servers.
 * AWS App Runner - Makes it easy to build, deploy, and scale web applications quickly.
 * AWS Fargate - Allows you to run containers without having to manage the underlying infrastructure
-<br/><br/>
 
 ### Lesson 2.4 : Introduction to AWS Lambda
 **Where to Use** - You can run code for virtually any type of application or backend service. This includes:
