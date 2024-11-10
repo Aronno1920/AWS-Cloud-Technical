@@ -78,6 +78,7 @@ The AWS Cloud Technical Essentials course is designed for individuals who are ne
 * Dedicated Host - physical EC2 server is dedicated for our use. Most expensive option.
 
 **Amazon EC2 Instance Lifecycle**
+
 ![Amazon EC2 Instance Lifecycle](Images/Lifecycle.png)
 <br/><br/>
 
