@@ -10,7 +10,7 @@ The AWS Cloud Technical Essentials course introduces newcomers to core AWS princ
 * Explore serverless computing, including AWS Lambda and Amazon API Gateway.
 <br/><br/>
 
-## Module 01 : Introduction to Amazon Web Services ![Read More](Resources/ACTE%20Module%201%20Resource.pdf)
+## Module 01 : Introduction to Amazon Web Services
 ### Lesson 1.1 : Introduction to AWS Cloud
 **Amazon Web Services** provides a wide range of global cloud-based products, including compute, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications. These services are on-demand, accessible in seconds, and follow a pay-as-you-go pricing model. The cloud model includes five essential characteristics, three service types, and four deployment models.
 
@@ -213,3 +213,24 @@ AWS Storage services are grouped into three categories:
     * Shared File Storage for EC2 Instances
     * Big Data and Analytics
     * Container Storage for Docker and Kubernetes
+<br/><br/>
+
+## Module 05 : Databases
+### Lesson 5.1 : Explore Databases in AWS
+
+**AWS Database Overview** - A high-performing database is crucial to any organization. Databases support the internal operations of companies and store interactions with customers and suppliers
+* **Amazon RDS** - Managed Relational Database Service ex: Oracle, MSSQL, PostgreSQL, MariaDB
+* **Amazon DocumentDB** - Fully-managed MongoDB-compatible Database
+* **Amazon DynamoDB** - Managed NoSQL Database
+* **ElastiCache** - In-Memory Cache
+
+### Lesson 5.2 : Amazon Relational Database Service (RDS)
+With **Amazon Relational Database Service (Amazon RDS)**, you can focus on tasks that differentiate your application instead of infrastructure-related tasks, like provisioning, patching, scaling, and restoring. Amazon RDS is a managed database service customers can use to create and manage relational databases in the cloud without the operational burden of traditional database management
+* **Commercial** : Oracle, SQL Server, IBM Db2
+* **Open source** : MySQL, PostgreSQL, MariaDB
+* **Cloud native** : Aurora
+
+
+### Lesson 5.3 : Amazon Introduction to Amazon DynamoDB
+
+### Lesson 5.4 : Choose the Right AWS Database Service
