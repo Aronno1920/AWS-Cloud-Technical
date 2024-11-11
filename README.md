@@ -256,3 +256,5 @@ work. You can offload the administrative burdens of operating and
 scaling distributed databases to AWS
 
 ### Lesson 5.4 : Choose the Right AWS Database Service
+Choose the database service that is the best fit for the job to help you optimize scale, performance, and costs when designing applications.
+![Choose the Right AWS Database](Images/aws_database.png)
