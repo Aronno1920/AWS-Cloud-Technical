@@ -229,7 +229,6 @@ AWS Storage services are grouped into three categories:
 * **Commercial** : Oracle, SQL Server, IBM Db2
 * **Open source** : MySQL, PostgreSQL, MariaDB
 * **Cloud native** : Aurora
-<br/>
 
 More Details on Amazon Relational Database Service (RDS)
 * Database Instances Type
@@ -245,5 +244,15 @@ More Details on Amazon Relational Database Service (RDS)
     * Default 1 to 35 days
 
 ### Lesson 5.3 : Amazon Introduction to Amazon DynamoDB
+DynamoDB is a fully managed NoSQL database service that provides fast and predictable performance with seamless scalability
+
+* **Components**
+    * In AWS DynamoDB, tables, items, and attributes are the core components that you work with.
+    * A table is a collection of items, and each item is a collection of attributes
+    * ![Components of DynamoDB](Images/DynamoDB_Component.png)
+* **Use Cases**
+    * DynamoDB is a fully managed service that handles the operations
+work. You can offload the administrative burdens of operating and
+scaling distributed databases to AWS
 
 ### Lesson 5.4 : Choose the Right AWS Database Service
