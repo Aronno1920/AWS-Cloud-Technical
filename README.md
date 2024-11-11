@@ -258,3 +258,47 @@ scaling distributed databases to AWS
 ### Lesson 5.4 : Choose the Right AWS Database Service
 Choose the database service that is the best fit for the job to help you optimize scale, performance, and costs when designing applications.
 ![Choose the Right AWS Database](Images/aws_database.png)
+<br/><br/>
+
+## Module 06 : Monitoring and Optimization
+### Lesson 6.1 : Explore AWS CloudWatch (Monitoring)
+Monitoring gives you insights into your applications that help you detect, investigate, and remediate problems faster.
+
+**When we need to monitor ?**
+When operating a website like an employee directory application on AWS, you might have questions like the following:
+* How many people are visiting my site day to day?
+* How can I track the number of visitors over time?
+* How will I know if the website is having performance or availability issues?
+* What happens if my Amazon Elastic Compute Cloud (Amazon EC2) instance runs out of capacity?
+
+**USE Metrices**
+CPU utilization is one example of a metric. Other examples of metrics that EC2 instances have are network utilization, disk performance, memory utilization, and the logs created by the applications running on top of Amazon EC2
+
+**Type of Metrices** - Different resources in AWS create different types of metrics.
+**EC2 Metrices**
+* CPU utilization
+* Network utilization
+* Disk performance
+* Status checks
+
+**S3 Metrices**
+* Size of objects stored in a bucket
+* Number of objects stored in a bucket
+* Number of HTTP request made to a bucket
+
+### Lesson 6.2 : AWS Load Balancer and Auto Scaling
+**ELB Features** - The Elastic Load Balancing refers to the process of distributing tasks across a set of resources. The resources are EC2 instances that host the application, and the tasks are the requests being sent.
+
+**Application Load Balancer** serves as the single point of contact for clients. The load balancer distributes incoming application traffic across multiple targets, such as –
+* EC2 instances
+* In multiple Availability Zones
+* It functions at Layer 7 of the OSI model.
+
+
+**A Network Load Balancer** is ideal for load balancing TCP and UDP traffic. It functions at Layer 4 of the OSI model, routing connections from a target in the target group based on IP protocol data
+* TCP and User Datagram Protocol (UDP) connection based
+* Source IP preservation
+* Low latency
+
+**Horizontal Scaling**
+Amazon EC2 Auto Scaling helps you maintain application availability. You can automatically add or remove EC2 instances using scaling policies that you define.
