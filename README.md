@@ -229,7 +229,9 @@ AWS Storage services are grouped into three categories:
 * **Commercial** : Oracle, SQL Server, IBM Db2
 * **Open source** : MySQL, PostgreSQL, MariaDB
 * **Cloud native** : Aurora
+<br/>
 
+More Details on Amazon Relational Database Service (RDS)
 * Database Instances Type
     * Standard classes
     * Memory optimized classes
