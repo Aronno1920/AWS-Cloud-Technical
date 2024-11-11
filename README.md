@@ -225,11 +225,22 @@ AWS Storage services are grouped into three categories:
 * **ElastiCache** - In-Memory Cache
 
 ### Lesson 5.2 : Amazon Relational Database Service (RDS)
-With **Amazon Relational Database Service (Amazon RDS)**, you can focus on tasks that differentiate your application instead of infrastructure-related tasks, like provisioning, patching, scaling, and restoring. Amazon RDS is a managed database service customers can use to create and manage relational databases in the cloud without the operational burden of traditional database management
+**Amazon Relational Database Service (RDS)** allows you to focus on your application's unique features rather than infrastructure tasks like provisioning, patching, scaling, and restoring. As a managed database service, Amazon RDS enables customers to create and manage relational databases in the cloud, removing the operational burdens of traditional database management.
 * **Commercial** : Oracle, SQL Server, IBM Db2
 * **Open source** : MySQL, PostgreSQL, MariaDB
 * **Cloud native** : Aurora
 
+* Database Instances Type
+    * Standard classes
+    * Memory optimized classes
+    * Burstable Classes
+* Storage on Amazon RDS
+    * GP2 ( SSD)
+    * GP3 (SSD)
+    * IOPS io1 (SSD)
+    * Magnetic
+* DB Auto Backup
+    * Default 1 to 35 days
 
 ### Lesson 5.3 : Amazon Introduction to Amazon DynamoDB
 
