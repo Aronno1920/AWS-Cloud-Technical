@@ -275,6 +275,7 @@ When operating a website like an employee directory application on AWS, you migh
 CPU utilization is one example of a metric. Other examples of metrics that EC2 instances have are network utilization, disk performance, memory utilization, and the logs created by the applications running on top of Amazon EC2
 
 **Type of Metrices** - Different resources in AWS create different types of metrics.
+
 **EC2 Metrices**
 * CPU utilization
 * Network utilization
